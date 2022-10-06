@@ -12,10 +12,10 @@ public class XiaTipCalculator {
         System.out.print("Amount of people:");
         int people = n.nextInt();
 
-        double totaltip = bill * tippercent;
-        double tipperperson = totaltip / people;
-        double totalamount = bill + totaltip;
-        double totalamountperperson = bill / people + tipperperson;
+        double totaltip = bill * tippercent; // the total amount of tip by multiplying the bill and the tip %
+        double tipperperson = totaltip / people; // The amount of tip that each person needs to pay
+        double totalamount = bill + totaltip; // The total bill including tip
+        double totalamountperperson = bill / people + tipperperson; // how much each person needs to pay
 
         System.out.println("Total tip: " + totaltip);
         System.out.println("Total bill: " + totalamount);
