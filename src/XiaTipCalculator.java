@@ -17,10 +17,10 @@ public class XiaTipCalculator {
         double totalamount = bill + totaltip; // The total bill including tip
         double totalamountperperson = bill / people + tipperperson; // how much each person needs to pay
 
-        System.out.println("Total tip: " + totaltip);
-        System.out.println("Total bill: " + totalamount);
-        System.out.println("Tip per person: " + tipperperson);
-        System.out.println("Total cost per person: " + totalamountperperson);
+        System.out.println("Total Tip: $%.2f\n", " + totaltip);
+        System.out.println("Total Bill With Tip: $%.2f\n", + totalamount);
+        System.out.println("Tip Per Person: $%.2f\n", " + tipperperson);
+        System.out.println("Total Cost Per Person: $%.2f\n", + totalamountperperson);
 
 
     }
